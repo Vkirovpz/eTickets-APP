@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oPm+kihBuczdnrnFH5PM+EtgG7NIwHhkFC9OPWAo56DGt3IMNr32YYsy0+CmtDMi8/O3RKfj4pTWB8Mlwu600w==",
+  "dgSpecHash": "EIDMmPvLVboPWwPw2wRCVV2BqEwT/Q9KTa5DOGVhD9mx8VmnDUuftxc6mN+2dxG5lmwG36OHlJNdW+UZGaaFDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\eTickets-Domain\\eTickets-Domain.csproj",
+  "projectFilePath": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\eTickets-Domain\\eTickets.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

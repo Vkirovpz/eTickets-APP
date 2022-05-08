@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\Data\\eTickets-Data.csproj",
-      "projectName": "eTickets-Data",
-      "projectPath": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\Data\\eTickets-Data.csproj",
+      "projectUniqueName": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\Data\\eTickets.Data.csproj",
+      "projectName": "eTickets.Data",
+      "projectPath": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\Data\\eTickets.Data.csproj",
       "packagesPath": "C:\\Users\\Valentin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\Data\\obj\\",
       "projectStyle": "PackageReference",
