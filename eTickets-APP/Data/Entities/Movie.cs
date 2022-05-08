@@ -2,6 +2,7 @@
 {
     using eTickets.Data.Enums;
     using System;
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     public class Movie
     {
@@ -14,5 +15,13 @@
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public MovieCategory MovieCategory { get; set; }
+
+        public List<Actor_Movie> Actors_Movies { get; set; }
+
+        public int CinemaId { get; set; }
+        public Cinema Cinema { get; set; }
+
+        public int ProducerId { get; set; }
+        public Producer Producer { get; set; }
     }
 }

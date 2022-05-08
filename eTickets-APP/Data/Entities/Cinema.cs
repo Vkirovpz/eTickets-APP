@@ -1,5 +1,6 @@
 ﻿namespace eTickets.Data.Entities
 {
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     public class Cinema
     {
@@ -8,5 +9,6 @@
         public string Logo { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public List<Movie> Movies { get; set; }
     }
 }

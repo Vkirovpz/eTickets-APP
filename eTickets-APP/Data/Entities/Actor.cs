@@ -1,5 +1,6 @@
 ﻿namespace eTickets.Data.Entities
 {
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     public class Actor
     {
@@ -8,5 +9,7 @@
         public string FullName { get; set; }
         public string ProfilePictureURL { get; set; }
         public int Bio { get; set; }
+
+        public List<Actor_Movie> Actors_Movies { get; set; }
     }
 }

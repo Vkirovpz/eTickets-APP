@@ -5,4 +5,8 @@
     <RootNamespace>eTickets_Domain</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Data\eTickets.Data.csproj" />
+  </ItemGroup>
+
 </Project>

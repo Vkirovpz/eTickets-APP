@@ -5,4 +5,8 @@
     <RootNamespace>eTickets_APP</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\eTickets-Domain\eTickets.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
