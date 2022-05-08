@@ -1,0 +1,15 @@
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.deps.json
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.runtimeconfig.json
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.runtimeconfig.dev.json
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\ref\eTickets.Data.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.pdb
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.csproj.AssemblyReference.cache
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.AssemblyInfoInputs.cache
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.AssemblyInfo.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.csproj.CoreCompileInputs.cache
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\ref\eTickets.Data.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.pdb
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.genruntimeconfig.cache
