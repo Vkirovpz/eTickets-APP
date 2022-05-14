@@ -11,14 +11,17 @@
         [Required]
         [MaxLength(LogoURLMaxLength)]
         [Url]
+        [Display(Name = "Cinema logo")]
         public string Logo { get; set; }
 
         [Required]
         [StringLength(NameMaxLength, MinimumLength = NameMinLength)]
+        [Display(Name = "Name")]
         public string Name { get; set; }
 
         [Required]
         [StringLength(DescriptionMaxLength, MinimumLength = DescriptionMinLength)]
+        [Display(Name = "Description")]
         public string Description { get; set; }
 
         public List<Movie> Movies { get; set; }

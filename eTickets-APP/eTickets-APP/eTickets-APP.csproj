@@ -22,7 +22,6 @@
     <Folder Include="Models\Movies\" />
     <Folder Include="Models\Producers\" />
     <Folder Include="Views\Movies\" />
-    <Folder Include="Views\Cinemas\" />
   </ItemGroup>
 
 </Project>

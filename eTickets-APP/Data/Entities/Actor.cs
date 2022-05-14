@@ -16,7 +16,7 @@
         [Required]
         [MaxLength(ProfilePictureURLMaxLength)]
         [Url]
-        [Display(Name = "Profile Picture URL")]
+        [Display(Name = "Profile Picture")]
         public string ProfilePictureURL { get; set; }
 
         [Required]
