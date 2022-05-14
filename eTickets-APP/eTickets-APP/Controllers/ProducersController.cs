@@ -1,11 +1,23 @@
 ﻿namespace eTickets_APP.Controllers
 {
+    using eTickets.Data;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using System.Threading.Tasks;
+
     public class ProducersController : Controller
     {
-        public IActionResult Index()
+        private readonly AppDbContext _context;
+
+        public ProducersController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var data = await _context.Producers.ToListAsync();
+            return View(data);
         }
     }
 }

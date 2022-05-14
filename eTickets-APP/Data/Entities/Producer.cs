@@ -10,15 +10,18 @@
 
         [Required]
         [StringLength(FullNameMaxLength, MinimumLength = FullNameMinLength)]
+        [Display(Name = "Full Name")]
         public string FullName { get; set; }
 
         [Required]
         [MaxLength(ProfilePictureURLMaxLength)]
         [Url]
+        [Display(Name = "Profile Picture URL")]
         public string ProfilePictureURL { get; set; }
 
         [Required]
         [StringLength(BioMaxLength, MinimumLength = BioMinLength)]
+        [Display(Name = "Biography")]
         public string Bio { get; set; }
 
         public List<Movie> Movies { get; set; }
