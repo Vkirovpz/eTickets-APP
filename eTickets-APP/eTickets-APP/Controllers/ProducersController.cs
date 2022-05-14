@@ -16,8 +16,8 @@
 
         public async Task<IActionResult> Index()
         {
-            var data = await _context.Producers.ToListAsync();
-            return View(data);
+            var allProducers = await _context.Producers.ToListAsync();
+            return View(allProducers);
         }
     }
 }

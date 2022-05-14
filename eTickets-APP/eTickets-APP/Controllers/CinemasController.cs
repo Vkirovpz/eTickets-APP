@@ -16,8 +16,8 @@
 
         public async Task<IActionResult> Index()
         {
-            var data = await _context.Cinemas.ToListAsync();
-            return View(data);
+            var allCinemas = await _context.Cinemas.ToListAsync();
+            return View(allCinemas);
         }
     }
 }

@@ -16,7 +16,7 @@
 
         [Required]
         [StringLength(NameMaxLength, MinimumLength = NameMinLength)]
-        [Display(Name = "Name")]
+        [Display(Name = "Cinema Name")]
         public string Name { get; set; }
 
         [Required]
