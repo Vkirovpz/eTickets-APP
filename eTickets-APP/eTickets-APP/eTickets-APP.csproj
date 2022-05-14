@@ -19,6 +19,9 @@
 
   <ItemGroup>
     <Folder Include="Views\Actors\" />
+    <Folder Include="Views\Movies\" />
+    <Folder Include="Views\Cinemas\" />
+    <Folder Include="Views\Producers\" />
   </ItemGroup>
 
 </Project>
