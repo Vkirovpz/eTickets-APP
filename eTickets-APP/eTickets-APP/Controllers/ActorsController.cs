@@ -1,5 +1,6 @@
 ﻿namespace eTickets_APP.Controllers
 {
+    using eTickets.Data.Entities;
     using eTickets_Domain.Actors;
     using Microsoft.AspNetCore.Mvc;
     using System.Threading.Tasks;
@@ -25,9 +26,16 @@
             return View();
         }
 
-        //public async Task<IActionResult> Create()
-        //{
-        //    return View();
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("FullName,ProfilePictureURL,Bio")]Actor actor)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(actor);              
+            }
+            _actors.Add(actor);
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
