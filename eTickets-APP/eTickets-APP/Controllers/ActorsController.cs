@@ -18,5 +18,16 @@
             var allActors = await _actors.GetAll();
             return View(allActors);
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        //public async Task<IActionResult> Create()
+        //{
+        //    return View();
+        //}
     }
 }
