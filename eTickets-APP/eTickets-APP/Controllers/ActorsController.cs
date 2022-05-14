@@ -1,22 +1,21 @@
 ﻿namespace eTickets_APP.Controllers
 {
-    using eTickets.Data;
+    using eTickets_Domain.Actors;
     using Microsoft.AspNetCore.Mvc;
-    using Microsoft.EntityFrameworkCore;
     using System.Threading.Tasks;
 
     public class ActorsController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly  IActorsService _actors;
 
-        public ActorsController(AppDbContext context)
+        public ActorsController(IActorsService actors)
         {
-            _context = context;
+            _actors = actors;
         }
 
         public async Task<IActionResult> Index()
         {
-            var allActors = await _context.Actors.ToListAsync();
+            var allActors = await _actors.GetAll();
             return View(allActors);
         }
     }
