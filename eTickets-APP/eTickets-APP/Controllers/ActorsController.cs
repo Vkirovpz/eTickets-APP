@@ -16,7 +16,7 @@
 
         public async Task<IActionResult> Index()
         {
-            var allActors = await _actors.GetAll();
+            var allActors = await _actors.GetAllAsync();
             return View(allActors);
         }
 
@@ -33,9 +33,20 @@
             {
                 return View(actor);              
             }
-            _actors.Add(actor);
-
+            await _actors.AddAsync(actor);
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var actorDetails = await _actors.GetByIdAsync(id);
+
+            if (actorDetails == null)
+            {
+                return View("Empty");
+            }
+
+            return View(actorDetails);
         }
     }
 }
