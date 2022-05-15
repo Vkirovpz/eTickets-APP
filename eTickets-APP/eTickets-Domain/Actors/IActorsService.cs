@@ -14,6 +14,6 @@
 
        Task<Actor> UpdateAsync(int id, Actor newActor);
 
-        void Delete(int id);
+        Task DeleteAsync(int id);
     }
 }
