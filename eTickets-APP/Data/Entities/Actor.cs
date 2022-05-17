@@ -1,9 +1,10 @@
 ﻿namespace eTickets.Data.Entities
 {
+   
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using static eTickets.Data.DataConstants.DataConstants.Actor;
-    public class Actor
+    public class Actor : IEntityBase
     {
         [Key]
         public int Id { get; set; }

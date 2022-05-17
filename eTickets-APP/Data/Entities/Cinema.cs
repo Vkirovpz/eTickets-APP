@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using static eTickets.Data.DataConstants.DataConstants.Cinema;
-    public class Cinema
+    public class Cinema : IEntityBase
     {
         [Key]
         public int Id { get; set; }

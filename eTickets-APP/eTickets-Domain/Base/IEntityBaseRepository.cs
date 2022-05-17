@@ -1,5 +1,6 @@
 ﻿namespace eTickets_Domain.Base
 {
+    using eTickets.Data.Entities;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     public interface IEntityBaseRepository<T> where T: class, IEntityBase, new()

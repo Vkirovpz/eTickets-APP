@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using static eTickets.Data.DataConstants.DataConstants.Producer;
-    public class Producer
+    public class Producer : IEntityBase
     {
         [Key]
         public int Id { get; set; }

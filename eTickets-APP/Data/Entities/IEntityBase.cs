@@ -1,4 +1,4 @@
-﻿namespace eTickets_Domain.Base
+﻿namespace eTickets.Data.Entities
 {
     public interface IEntityBase
     {
