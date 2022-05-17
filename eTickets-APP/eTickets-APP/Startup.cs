@@ -2,6 +2,7 @@ namespace eTickets_APP
 {
     using eTickets.Data;
     using eTickets_Domain.Actors;
+    using eTickets_Domain.Producers;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,7 @@ namespace eTickets_APP
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
 
             services.AddScoped<IActorsService, ActorsService>();
+            services.AddScoped<IProducersService, ProducersService>();
 
             services.AddControllersWithViews();
         }
