@@ -82,3 +82,6 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\ne
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Producers\Details.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Producers\Delete.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Producers\Edit.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Producers\Create.cshtml.g.cs
