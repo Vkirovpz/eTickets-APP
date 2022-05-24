@@ -32,11 +32,11 @@
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-            var producerDetails = await _producers.GetByIdAsync(id);
+            var producer = await _producers.GetByIdAsync(id);
 
-            if (producerDetails == null) return View("NotFound");
+            if (producer == null) return View("NotFound");
 
-            return View(producerDetails);
+            return View(producer);
         }
 
         [HttpPost]
@@ -53,19 +53,19 @@
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
-            var producerDetails = await _producers.GetByIdAsync(id);
+            var producer = await _producers.GetByIdAsync(id);
 
-            if (producerDetails == null) return View("NotFound");
+            if (producer == null) return View("NotFound");
 
-            return View(producerDetails);
+            return View(producer);
         }
 
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var producerDetails = await _producers.GetByIdAsync(id);
+            var producer = await _producers.GetByIdAsync(id);
 
-            if (producerDetails == null) return View("NotFound");
+            if (producer == null) return View("NotFound");
 
             await _producers.DeleteAsync(id);
 

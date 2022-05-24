@@ -2,6 +2,7 @@ namespace eTickets_APP
 {
     using eTickets.Data;
     using eTickets_Domain.Actors;
+    using eTickets_Domain.Cinemas;
     using eTickets_Domain.Producers;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -26,6 +27,7 @@ namespace eTickets_APP
 
             services.AddScoped<IActorsService, ActorsService>();
             services.AddScoped<IProducersService, ProducersService>();
+            services.AddScoped<ICinemasService, CinemasService>();
 
             services.AddControllersWithViews();
         }
