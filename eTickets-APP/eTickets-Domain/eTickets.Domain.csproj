@@ -16,8 +16,4 @@
     <ProjectReference Include="..\Data\eTickets.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Movies\" />
-  </ItemGroup>
-
 </Project>
