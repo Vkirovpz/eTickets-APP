@@ -13,28 +13,42 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
 using eTickets_APP;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
 using eTickets_APP.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
 using eTickets.Data.Entities;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
+using eTickets.Data.Enums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
+using eTickets_APP.ViewModels.Movies;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6e3478836b86aff7125336688c11213ba414cd8b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cad18ffc52273dc406c9752d2d38cd998e88a6ee", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

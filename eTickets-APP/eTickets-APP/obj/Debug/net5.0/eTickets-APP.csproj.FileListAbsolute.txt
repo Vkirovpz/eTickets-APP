@@ -90,3 +90,4 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\ne
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Cinemas\Details.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Cinemas\Edit.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs

@@ -24,5 +24,10 @@
             var movieDetail = await _movies.GetMovieByIdAsync(id);
             return View(movieDetail);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
