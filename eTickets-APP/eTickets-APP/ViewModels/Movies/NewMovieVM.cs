@@ -21,7 +21,6 @@
         [Display(Name = "Price in $")]
         [Required]
         [Range(MinPrice, MaxPrice)]
-        [Column(TypeName = "decimal(18,2)")]
         public double Price { get; set; }
 
         [Display(Name = "Movie poster URL")]

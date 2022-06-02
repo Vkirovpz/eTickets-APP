@@ -4,7 +4,6 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTi
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.dll
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\ref\eTickets.Data.dll
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\bin\Debug\net5.0\eTickets.Data.pdb
-C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.csproj.AssemblyReference.cache
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.AssemblyInfoInputs.cache
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.AssemblyInfo.cs
