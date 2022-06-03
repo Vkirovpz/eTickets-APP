@@ -23,6 +23,19 @@
             return View(allMovies);
         }
 
+        public async Task<IActionResult> Filter(string searchString)
+        {
+            var allMovies = await _movies.GetAllAsync(n => n.Cinema);
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                var filtered = allMovies.Where(n => n.Name.ToLower().Contains(searchString.ToLower()) || n.Description.ToLower().Contains(searchString.ToLower())).ToList();
+                return View("Index", filtered);
+            }
+
+            return View("Index", allMovies);
+        }
+
         public async Task<IActionResult> Details(int id)
         {
             var movieDetail = await _movies.GetMovieByIdAsync(id);
