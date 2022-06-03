@@ -10,5 +10,7 @@
         Task<Movie> GetMovieByIdAsync(int id);
 
         Task<NewMovieDropdownsSM> GetNewMovieDropdownsValues();
+        Task AddNewMovieAsync(NewMovieSM movie);
+        Task UpdateMovieAsync(NewMovieSM movie);
     }
 }

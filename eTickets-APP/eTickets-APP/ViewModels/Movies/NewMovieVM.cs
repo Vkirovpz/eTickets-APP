@@ -4,10 +4,11 @@
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
     using static eTickets.Data.DataConstants.DataConstants.Movie;
     public class NewMovieVM
     {
+        public int Id { get; set; }
+
         [Display(Name = "Movie name")]
         [Required]
         [StringLength(NameMaxLength, MinimumLength = NameMinLength)]

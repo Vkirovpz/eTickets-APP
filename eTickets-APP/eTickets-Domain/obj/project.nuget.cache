@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EuCPyqKkngpG6ViHKIfu+9GHaOvykzTodptGoYW0xySxnkg+1xMfM0TBBP9boz26R4GNZKTU4Zwomf1Q4cfeEw==",
+  "dgSpecHash": "cDDIW6u/01g5BN5AYbbi6dEujqH3g6D4C5ZLdSDK++jHciC9UQ83edn8nNc1rTSuWUeOgcbGqZ4+43HYXHkRkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Valentin\\Desktop\\c#\\eTickets-APP\\eTickets-APP\\eTickets-Domain\\eTickets.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Valentin\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Valentin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Valentin\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Valentin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
