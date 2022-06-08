@@ -1,12 +1,14 @@
 namespace eTickets_APP
 {
     using eTickets.Data;
+    using eTickets_App.Cart;
     using eTickets_Domain.Actors;
     using eTickets_Domain.Cinemas;
     using eTickets_Domain.Movies;
     using eTickets_Domain.Producers;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Http;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
@@ -31,6 +33,13 @@ namespace eTickets_APP
             services.AddScoped<ICinemasService, CinemasService>();
             services.AddScoped<IMoviesService, MoviesService>();
 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sc => ShoppingCart.GetShoppingCart(sc));
+            
+
+            services.AddMemoryCache();
+            services.AddSession();
+
             services.AddControllersWithViews();
         }
 
@@ -51,6 +60,7 @@ namespace eTickets_APP
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseSession();
 
             app.UseAuthorization();
 

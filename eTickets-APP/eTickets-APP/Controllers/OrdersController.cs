@@ -1,9 +1,12 @@
 ﻿namespace eTickets_APP.Controllers
 {
     using eTickets_APP.ViewModels.Cart;
-    using eTickets_Domain.Cart;
+    //using eTickets_Domain.Cart;
+    using eTickets_App.Cart;
     using eTickets_Domain.Movies;
     using Microsoft.AspNetCore.Mvc;
+    using System.Threading.Tasks;
+
     public class OrdersController : Controller
     {
         private readonly IMoviesService _movies;
@@ -15,7 +18,7 @@
             _shoppingCart = shoppingCart;
         }
 
-        public IActionResult Index()
+        public IActionResult ShoppingCart()
         { 
             var items = _shoppingCart.GetShoppingCartItems();
             _shoppingCart.ShoppingCartItems = items;
@@ -26,6 +29,28 @@
                 ShoppingCartTotal = _shoppingCart.GetShoppingCartTotal()
             };
             return View(response);
+        }
+
+        public async Task<IActionResult> AddItemToShoppingCart(int id)
+        {
+            var item = await _movies.GetMovieByIdAsync(id);
+
+            if (item != null)
+            {
+                _shoppingCart.AddItemToCart(item);
+            }
+            return RedirectToAction(nameof(ShoppingCart));
+        }
+
+       public async Task<IActionResult> RemoveItemFromShoppingCart(int id)
+        {
+            var item = await _movies.GetMovieByIdAsync(id);
+
+            if (item != null)
+            {
+                _shoppingCart.RemoveItemFromCart(item);
+            }
+            return RedirectToAction(nameof(ShoppingCart));
         }
     }
 }

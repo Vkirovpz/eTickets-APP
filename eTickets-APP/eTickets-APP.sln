@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTickets-APP", "eTickets-APP\eTickets-APP.csproj", "{6FD494FC-C225-4181-83BA-797777270B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTickets-APP", "eTickets-APP\eTickets-APP.csproj", "{6FD494FC-C225-4181-83BA-797777270B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTickets.Data", "Data\eTickets.Data.csproj", "{DFE98B9B-422F-4EEC-BB2A-01632398A859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTickets.Data", "Data\eTickets.Data.csproj", "{DFE98B9B-422F-4EEC-BB2A-01632398A859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTickets.Domain", "eTickets-Domain\eTickets.Domain.csproj", "{CB60DA2E-90D0-48A4-B37D-CBE2F668E401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTickets.Domain", "eTickets-Domain\eTickets.Domain.csproj", "{CB60DA2E-90D0-48A4-B37D-CBE2F668E401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

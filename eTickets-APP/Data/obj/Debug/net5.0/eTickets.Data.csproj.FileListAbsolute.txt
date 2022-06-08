@@ -12,4 +12,3 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTi
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\ref\eTickets.Data.dll
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.pdb
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.genruntimeconfig.cache
-C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\Data\obj\Debug\net5.0\eTickets.Data.csproj.AssemblyReference.cache
