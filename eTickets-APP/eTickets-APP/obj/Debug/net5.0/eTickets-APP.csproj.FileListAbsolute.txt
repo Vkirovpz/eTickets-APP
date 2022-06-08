@@ -107,3 +107,4 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\ne
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Orders\OrderCopmpleted.cshtml.g.cs
