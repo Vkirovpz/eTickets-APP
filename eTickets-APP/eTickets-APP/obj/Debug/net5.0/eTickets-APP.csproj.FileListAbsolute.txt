@@ -109,3 +109,15 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\ne
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Orders\OrderCopmpleted.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
