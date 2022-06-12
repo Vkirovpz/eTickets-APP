@@ -2,6 +2,7 @@
 {
     using eTickets.Data;
     using eTickets.Data.Entities;
+    using eTickets_APP.ViewModels.Users;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     public class AccountController : Controller
@@ -17,9 +18,7 @@
             _context = context;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Login() => View(new LoginVM());
+
     }
 }
