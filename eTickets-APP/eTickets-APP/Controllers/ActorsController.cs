@@ -2,9 +2,11 @@
 {
     using eTickets.Data.Entities;
     using eTickets_Domain.Actors;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using System.Threading.Tasks;
 
+    [Authorize]
     public class ActorsController : Controller
     {
         private readonly  IActorsService _actors;
@@ -14,6 +16,7 @@
             _actors = actors;
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var allActors = await _actors.GetAllAsync();
@@ -37,12 +40,12 @@
             return RedirectToAction(nameof(Index));
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
             var actorDetails = await _actors.GetByIdAsync(id);
 
             if (actorDetails == null) return View("NotFound");
-
             return View(actorDetails);
         }
 

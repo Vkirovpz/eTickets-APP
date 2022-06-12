@@ -3,11 +3,13 @@
     using eTickets_APP.ViewModels.Movies;
     using eTickets_Domain.Movies;
     using eTickets_Domain.Movies.Models;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using System.Linq;
     using System.Threading.Tasks;
 
+    [Authorize]
     public class MoviesController : Controller
     {
         private readonly IMoviesService _movies;
@@ -17,12 +19,14 @@
             _movies = movies;
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var allMovies = await _movies.GetAllAsync(n => n.Cinema);
             return View(allMovies);
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Filter(string searchString)
         {
             var allMovies = await _movies.GetAllAsync(n => n.Cinema);
@@ -36,6 +40,7 @@
             return View("Index", allMovies);
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
             var movieDetail = await _movies.GetMovieByIdAsync(id);

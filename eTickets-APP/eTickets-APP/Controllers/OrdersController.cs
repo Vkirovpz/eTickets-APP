@@ -8,7 +8,9 @@
     using System.Threading.Tasks;
     using eTickets_Domain.Orders;
     using System.Security.Claims;
+    using Microsoft.AspNetCore.Authorization;
 
+    [Authorize]
     public class OrdersController : Controller
     {
         private readonly IMoviesService _movies;
