@@ -1,5 +1,6 @@
 ﻿namespace eTickets_APP.Controllers
 {
+    using eTickets.Data.Static;
     using eTickets_APP.ViewModels.Movies;
     using eTickets_Domain.Movies;
     using eTickets_Domain.Movies.Models;
@@ -9,7 +10,7 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    [Authorize]
+    [Authorize(Roles = UserRoles.Admin)]
     public class MoviesController : Controller
     {
         private readonly IMoviesService _movies;

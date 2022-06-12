@@ -1,12 +1,13 @@
 ﻿namespace eTickets_APP.Controllers
 {
     using eTickets.Data.Entities;
+    using eTickets.Data.Static;
     using eTickets_Domain.Cinemas;
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using System.Threading.Tasks;
 
-    [Authorize]
+    [Authorize(Roles = UserRoles.Admin)]
     public class CinemasController : Controller
     {
         private readonly ICinemasService _cinemas;
