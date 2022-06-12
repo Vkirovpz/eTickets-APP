@@ -324,20 +324,16 @@
         {
             using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
             {
-                // Roles
+
+                //Roles
                 var roleManager = serviceScope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
                 if (!await roleManager.RoleExistsAsync(UserRoles.Admin))
-                {
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
-                }
-
                 if (!await roleManager.RoleExistsAsync(UserRoles.User))
-                {
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.User));
-                }
 
-                // Users-admin
+                //Users
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
                 string adminUserEmail = "admin@etickets.com";
 
@@ -351,11 +347,10 @@
                         Email = adminUserEmail,
                         EmailConfirmed = true
                     };
-                    await userManager.CreateAsync(newAdminUser, "parola123");
+                    await userManager.CreateAsync(newAdminUser, "Coding@1234?");
                     await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
                 }
 
-                // Users-ordinary user
 
                 string appUserEmail = "user@etickets.com";
 
@@ -369,10 +364,11 @@
                         Email = appUserEmail,
                         EmailConfirmed = true
                     };
-                    await userManager.CreateAsync(newAppUser, "parola123");
+                    await userManager.CreateAsync(newAppUser, "Coding@1234?");
                     await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
                 }
             }
         }
     }
 }
+

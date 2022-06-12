@@ -17,6 +17,7 @@ namespace eTickets_APP
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using System.Threading.Tasks;
 
     public class Startup
     {
@@ -70,6 +71,10 @@ namespace eTickets_APP
 
             app.UseRouting();
             app.UseSession();
+
+            //Authentication & Authorization
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseAuthorization();
 
