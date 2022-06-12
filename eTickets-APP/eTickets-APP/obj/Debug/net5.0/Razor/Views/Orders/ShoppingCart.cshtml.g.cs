@@ -61,8 +61,15 @@ using eTickets_APP.ViewModels.Users;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 9 "C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab", @"/Views/Orders/ShoppingCart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"00c9778625c8a15ab77e4629704b03f27c93896a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"adbc2ff1bb82652ba730a2d6c02b265cf9469302", @"/Views/_ViewImports.cshtml")]
     public class Views_Orders_ShoppingCart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ShoppingCartVM>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -168,7 +175,7 @@ using eTickets_APP.ViewModels.Users;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                        <td class=\"align-middle\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab10078", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab10290", async() => {
                 WriteLiteral("\r\n                                <i class=\"bi bi-cart-dash\"></i>\r\n                            ");
             }
             );
@@ -202,7 +209,7 @@ using eTickets_APP.ViewModels.Users;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            |\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab12694", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab12906", async() => {
                 WriteLiteral("\r\n                                <i class=\"bi bi-cart-plus\"></i>\r\n                            ");
             }
             );
@@ -252,7 +259,7 @@ using eTickets_APP.ViewModels.Users;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                    </td>\r\n                    <td></td>\r\n                </tr>\r\n            </tfoot>\r\n        </table>\r\n\r\n        <div class=\"text-right\">\r\n            <div class=\"btn-group\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab16272", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab16484", async() => {
                 WriteLiteral("\r\n                        Complete order\r\n                    ");
             }
             );
@@ -269,7 +276,7 @@ using eTickets_APP.ViewModels.Users;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                <div id=\"paypal-btn\"></div>\r\n                <span style=\"padding:5px\"></span>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab17691", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0d9cfd0f1fdf32b21f9e3488341eb58ac3983ab17903", async() => {
                 WriteLiteral("\r\n                    Add more items\r\n                ");
             }
             );

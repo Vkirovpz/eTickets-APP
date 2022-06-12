@@ -125,3 +125,4 @@ C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\ne
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
 C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs
+C:\Users\Valentin\Desktop\c#\eTickets-APP\eTickets-APP\eTickets-APP\obj\Debug\net5.0\Razor\Views\Account\Users.cshtml.g.cs
